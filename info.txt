@@ -1,0 +1,18 @@
+The instructions below are for windows.
+They are for the dependencies needed so IOTA SDK may work on a Windows 10 pc.
+
+1. Install rust and cargo
+    https://www.rust-lang.org/tools/install
+    restart pc
+    rustup --version
+    cargo --version
+    rustc --version
+2. Install LLVM
+    https://releases.llvm.org/download.html e.g LLVM-18.1.8-win64.exe
+    run as admin
+    clang --version
+    clang++ --version
+    restart IDE/pc
+3. Install and follow IOTA SDK for Python
+    git clone https://github.com/iotaledger/iota-sdk
+    https://wiki.iota.org/iota-sdk/getting-started/python/
